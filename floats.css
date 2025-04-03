@@ -3,40 +3,46 @@
  **/
 
 * {
-  box-sizing: border-box;
-  text-align: center;
+    box-sizing: border-box;
+    text-align: center;
 }
 
-body {
-}
+body {}
 
 header {
-  padding: 20px;
-  margin-bottom: 20px;
-  color: #333;
-  background: #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #333;
+    background: #ccc;
 }
 
-section {
-}
+section {}
 
 #left {
+    float: left;
+    background: #666;
+    width: 33.3%;
 }
 
 #middle {
+    float: left;
+    background: #888;
+    width: 33.3%;
+    ;
 }
 
 #right {
+    float: left;
+    background: #666;
+    width: 33.3%;
 }
 
 #full {
+    clear: both;
 }
 
-#division {
-}
+#division {}
 
-aside {
-}
+aside {}
 
-footer {
-}
+footer {}
